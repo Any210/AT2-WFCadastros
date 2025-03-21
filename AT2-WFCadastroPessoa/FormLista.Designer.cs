@@ -1,4 +1,4 @@
-﻿namespace AT2_WFCadastros
+﻿namespace AT2_WFCadastroPessoa
 {
     partial class FormLista
     {
@@ -46,11 +46,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dgvLista);
-            MaximizeBox = false;
-            MinimizeBox = false;
             Name = "FormLista";
             Text = "FormLista";
-            Load += FormLista_Load;
             ((System.ComponentModel.ISupportInitialize)dgvLista).EndInit();
             ResumeLayout(false);
         }
